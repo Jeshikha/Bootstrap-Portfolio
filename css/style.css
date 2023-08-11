@@ -1,7 +1,19 @@
+/* Importing fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300;500&display=swap');
+
+/* Styling Nav Bar brand digital artisan jess */
+.navbar-brand {
+    font-size: 3rem !important;
+    font-family: 'Handjet', cursive;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
 /* Button style */
+
 .btn-primary {
-    background-color: black;
-    border-color: blue;
+    background-color: #119DA4;
+    border-color: #119DA4;
     color: white;
 }
 
@@ -62,7 +74,7 @@
 
 /* Jumbotron  */
 .meBackground {
-    background-image: url(../images/mejumb.jpeg);
+    background-image: url(../images/jumbm.PNG);
     background-size: cover;
     background-repeat: no-repeat;
     height: calc(100vh - 25px);
@@ -81,6 +93,11 @@
     padding-left: 100px;
 }
 
+/* Jumbotron button */
+#learn {
+    margin-top: 5rem;
+}
+
 /* Cards */
 .content {
     padding: 50px;
@@ -90,6 +107,8 @@
     text-align: center;
     padding-bottom: 3rem;
     padding-top: 100px;
+    background-color: #8bcfb5;
+    font-size: 40px;
 }
 
 .work {
@@ -120,8 +139,18 @@
 }
 
 /* Contact section */
+
+.sectionHeading2 {
+    text-align: center;
+    padding-bottom: 3rem;
+    padding-top: 100px;
+    background-color: #8bcfb5;
+    font-size: 40px;
+}
+
 .contact-section {
     padding-top: 5rem;
+
 }
 
 .contact-section .card {
@@ -164,7 +193,7 @@
 }
 
 .contact-section .social a:active {
-    color: #fff;
+    color: #000000;
 }
 
 .bg-blue {
@@ -179,7 +208,7 @@
             rgba(0, 0, 0, 0.1) 0%,
             rgba(0, 0, 0, 0.5) 75%,
             #000000 100%),
-        url('../images/signup.jpg');
+        url('../images/cta.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -228,18 +257,14 @@ footer ul li a.active {
     text-decoration: none;
 }
 
-.sectionHeading2 {
-    text-align: center;
-    color: white;
-    padding-bottom: 3rem;
-}
-
 /* Social Network styles */
 
 .sectionHeading3 {
     text-align: center;
-    color: black;
-    padding: 20px 20px;
+    padding-bottom: 3rem;
+    padding-top: 50px;
+    background-color: #8bcfb5;
+    font-size: 40px;
 }
 
 .contact address {
@@ -280,8 +305,12 @@ footer ul li a.active {
 
 /* About me section */
 #about h2 {
-    padding-top: 100px;
     text-align: center;
+    padding-bottom: 3rem;
+    padding-top: 100px;
+    background-color: #8bcfb5;
+    font-size: 40px;
+    margin: auto;
 }
 
 .about-content {
