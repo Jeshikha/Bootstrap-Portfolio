@@ -1,0 +1,66 @@
+.customNav {
+    position: fixed;
+    width: 100%;
+    background: url("../images/transparency.png");
+    background-color: transparent !important;
+    background-size: cover;
+    z-index: 10;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+}
+
+.navbar-brand img {
+    padding-right: 15px;
+    width: 65px;
+}
+
+.nav-item {
+    margin: 0px 15px;
+}
+
+/* Navigation dropdown menu */
+.dropdown-menu {
+    background: url("../images/transparency.png");
+    background-color: transparent !important;
+    background-size: cover;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+    background: black;
+}
+
+/* Navigation links */
+.customNav a {
+    color: white !important;
+}
+
+.navCTA {
+    font-size: 15px;
+}
+
+/* Jumbotron  */
+.meBackground {
+    background-image: url(../images/mejumb.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Jumbotron copy */
+.jumboCopy {
+    width: 70%;
+    min-width: 500px;
+    max-width: 700px;
+    color: rgb(50, 115, 129);
+    text-align: center;
+    padding-left: 100px;
+}
