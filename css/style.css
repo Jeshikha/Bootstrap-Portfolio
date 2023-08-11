@@ -60,7 +60,7 @@
     width: 70%;
     min-width: 500px;
     max-width: 700px;
-    color: rgb(50, 115, 129);
+    color: black;
     text-align: center;
     padding-left: 100px;
 }
@@ -80,4 +80,23 @@
 
 .cardContainer {
     text-align: center;
+}
+
+/* Skills section  */
+.sideAccent {
+    background: #007bff;
+    width: 15px;
+}
+
+.imageContainer img {
+    width: 100%;
+}
+
+.imageContainer {
+    padding: 50px;
+}
+
+.valueProp {
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
