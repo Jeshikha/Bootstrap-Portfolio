@@ -64,3 +64,20 @@
     text-align: center;
     padding-left: 100px;
 }
+
+/* Cards */
+.content {
+    padding: 50px;
+}
+
+.sectionHeading {
+    text-align: center;
+}
+
+.work {
+    padding: 0px 30px 30px 30px;
+}
+
+.cardContainer {
+    text-align: center;
+}
