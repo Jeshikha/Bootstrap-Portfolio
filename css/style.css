@@ -282,6 +282,14 @@ html {
     text-transform: uppercase;
     letter-spacing: 0.15rem;
     border: 0;
+    margin-right: 3rem;
+}
+
+.signup-section button {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    text-align: center;
+
 }
 
 
