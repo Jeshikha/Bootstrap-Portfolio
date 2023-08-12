@@ -34,7 +34,7 @@ The work section showcases some of the projects I have worked on. Each project i
 
 In the skills section, I've listed the skills that I have acquired and expect to learn during my web development bootcamp.
 
-## About
+## About Me
 
 The About Me section provides information about me, my passion for web development, and my interests outside of coding. It's a personal touch to connect with visitors.
 
@@ -90,7 +90,7 @@ This project is licensed under the MIT License.
 https://github.com/Jeshikha/Bootstrap-Portfolio
 
 2. The URL of the functional, deployed application on GitHub Pages:
-
+https://jeshikha.github.io/Bootstrap-Portfolio/
 
 3. The URL of the previous Portfolio Application used as reference to replicate bootstrap features:
 https://jeshikha.github.io/my-portfolio/
