@@ -97,14 +97,14 @@ The following images shows the web application's appearance and functionality:
 
 ![Bootstrap Portfolio webpage includes a navigation bar with dropdown menu, hero banner text and profile image](images/Screen1.png)
 
-![Bootstrap Portfolio webpage includes Work section with cards](images/screen2.png)
+![Bootstrap Portfolio webpage includes Work section with cards](images/Screen2.png)
 
-![Bootstrap Porfolio webpage includes About me section](images/screen3.png)
+![Bootstrap Porfolio webpage includes About me section](images/Screen3.png)
 
-![Bootstrap Porfolio webpage includes relevant skills](images/screen4.png)
+![Bootstrap Porfolio webpage includes relevant skills](images/Screen4.png)
 
-![Bootstrap Porfolio webpage includes Contact section address, email, phone and socials](images/screen5.png)
+![Bootstrap Porfolio webpage includes Contact section address, email, phone and socials](images/Screen5.png)
 
-![Bootstrap Porfolio webpage includes socials and footer](images/screen6.png)
+![Bootstrap Porfolio webpage includes socials and footer](images/Screen6.png)
 
 
