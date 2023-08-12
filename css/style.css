@@ -1,5 +1,13 @@
 /* Importing fonts from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap');
+
+
+/* Font family for all */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 
 /* Styling Nav Bar brand digital artisan jess */
 .navbar-brand {
@@ -7,15 +15,16 @@
     font-family: 'Handjet', cursive;
     padding-left: 4rem;
     padding-right: 4rem;
+
 }
 
 /* Button style */
-
 .btn-primary {
     background-color: #119DA4;
     border-color: #119DA4;
     color: white;
 }
+
 
 /* Nav Bar */
 .customNav {
@@ -58,6 +67,7 @@
     background: black;
 }
 
+
 /* Navigation links */
 .customNav a {
     color: black !important;
@@ -72,6 +82,7 @@
     font-size: 15px;
 }
 
+
 /* Jumbotron  */
 .meBackground {
     background-image: url(../images/jumbm.PNG);
@@ -83,6 +94,7 @@
     justify-content: center;
 }
 
+
 /* Jumbotron copy */
 .jumboCopy {
     width: 70%;
@@ -91,6 +103,7 @@
     color: black;
     text-align: center;
     padding-left: 100px;
+    font-family: 'Shippori Mincho', serif;
 }
 
 /* Jumbotron button */
@@ -98,7 +111,8 @@
     margin-top: 5rem;
 }
 
-/* Cards */
+
+/* Cards work section */
 .content {
     padding: 50px;
 }
@@ -119,10 +133,12 @@
     text-align: center;
 }
 
+
 /* Skills section  */
 .sideAccent {
     background: #ABEBD2;
     width: 15px;
+    margin-left: .75rem;
 }
 
 .imageContainer img {
@@ -138,8 +154,47 @@
     margin-bottom: 15px;
 }
 
-/* Contact section */
 
+/* About me section */
+#about h2 {
+    text-align: center;
+    padding-bottom: 3rem;
+    padding-top: 100px;
+    background-color: #8bcfb5;
+    font-size: 40px;
+    margin: auto;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-text {
+    flex: 2;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 50px;
+    padding-top: 40px;
+}
+
+
+/*Paragraph styles */
+#about p {
+    margin: 20px;
+    font-family: 'Shippori Mincho', serif;
+}
+
+
+/* Smooth scrolling for links */
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* Contact section */
 .sectionHeading2 {
     text-align: center;
     padding-bottom: 3rem;
@@ -201,6 +256,7 @@
     padding-bottom: 70px;
 }
 
+
 /* Call to action sign up */
 .signup-section {
     padding: 10rem 0;
@@ -228,37 +284,8 @@
     border: 0;
 }
 
-/* Footer styling */
-footer {
-    padding: 25px 0;
-    text-align: center;
-    color: rgba(255, 255, 255, 0.3);
-    background-color: #222222;
-}
-
-footer p {
-    font-size: 12px;
-    margin: 0;
-}
-
-footer ul {
-    margin-bottom: 0;
-}
-
-footer ul li a {
-    font-size: 12px;
-    color: rgba(255, 255, 255, 0.3);
-}
-
-footer ul li a:hover,
-footer ul li a:focus,
-footer ul li a:active,
-footer ul li a.active {
-    text-decoration: none;
-}
 
 /* Social Network styles */
-
 .sectionHeading3 {
     text-align: center;
     padding-bottom: 3rem;
@@ -287,6 +314,7 @@ footer ul li a.active {
     vertical-align: middle;
 }
 
+
 /* Social images alignment */
 .contact address img {
     vertical-align: middle;
@@ -296,6 +324,7 @@ footer ul li a.active {
     background-color: #ABEBD2;
 }
 
+
 /* Social hover styles */
 .contact address a:hover {
     color: rgb(21, 57, 78);
@@ -303,32 +332,16 @@ footer ul li a.active {
     transition: all 0.25s ease-in;
 }
 
-/* About me section */
-#about h2 {
+
+/* Footer styling */
+footer {
+    padding: 25px 0;
     text-align: center;
-    padding-bottom: 3rem;
-    padding-top: 100px;
-    background-color: #8bcfb5;
-    font-size: 40px;
-    margin: auto;
+    color: rgb(0, 255, 247);
+    background-color: #222222;
 }
 
-.about-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.about-text {
-    flex: 2;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 40px;
-    padding-right: 50px;
-    padding-top: 40px;
-}
-
-/* Smooth scrolling for links */
-html {
-    scroll-behavior: smooth;
+footer p {
+    font-size: 15px;
+    margin: 0;
 }

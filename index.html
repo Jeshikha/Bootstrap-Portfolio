@@ -38,7 +38,7 @@
                             Contact Me
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#about">About Me</a></li>
+                            <li><a class="dropdown-item" href="#skills">My Skills</a></li>
                             <li><a class="dropdown-item" href="#work">My work</a></li>
                             <li>
                                 <hr class="dropdown-divider">
@@ -160,7 +160,7 @@
     </section>
 
     <!-- Skills section -->
-    <div class="container-fluid content">
+    <div class="container-fluid content" id="skills">
         <h2 class="sectionHeading">Relevant Skills</h2>
 
         <!-- Row 1 -->
@@ -295,16 +295,31 @@
             <div class="row">
                 <div class="col-md-10 col-lg-8 mx-auto text-center">
                     <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-                    <h1 class="text-white mb-5">Subscribe To Receive Updates and Offers!</h1>
+                    <h1 class="text-white mb-5">Subscribe To Receive Updates & Offers!</h1>
                     <form class="form-inline d-flex">
                         <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" type="email"
                             placeholder="Enter email address..." />
-                        <button class="btn btn-primary mx-auto" type="submit">Subscribe</button>
+                        <button type="button" class="btn btn-primary mx-auto" data-bs-toggle="modal"
+                            data-bs-target="#jessModal">Subscribe</button>
                     </form>
                 </div>
             </div>
         </div>
     </section>
+    <!-- Modal -->
+    <div class="modal fade" id="jessModal" tabindex="-1" aria-labelledby="jessModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="jessModalLabel">Thank You for Subscribing with Jess</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>I am eager to embark this beautiful journey with you</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer>
         <div class="container">
