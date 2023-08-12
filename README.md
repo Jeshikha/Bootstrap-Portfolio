@@ -11,6 +11,7 @@ This project is a part of my web development journey, where I have recreated my 
 - Work Section (#work-section)
 - Skills Section (#skills-section)
 - About/Contact Section (#about/contact-section)
+- CTA (Subscribe to receive updates)
 - Footer (#footer)
 
 ## Navigation Bar
@@ -41,6 +42,10 @@ The About Me section provides information about me, my passion for web developme
 
 The Contact Me section includes my address, email, and telephone number, allowing visitors to reach out, for which I have used the Bootstrap cards format and and provides links to my social networks (GitHub and LinkedIn).
 
+## CTA (Subscribe to receive updates)
+
+Call to action button to push audience to Subcribe to my marketing emails with a functional Modal button. 
+
 ## Footer
 
 The footer contains copyright information.
@@ -63,7 +68,7 @@ The footer contains copyright information.
 
 • VS Code: Throughout the development process, VS Code proved to be an invaluable code editor.
 
-# Struggles Overcome
+## Struggles Overcome
 
 I estimate that I spent around 15 hours working on this project, from planning and structuring the layout to refining the styling and ensuring a smooth deployment. These hours were filled with learning, problem-solving, and the satisfaction of seeing my portfolio come to life.
 
